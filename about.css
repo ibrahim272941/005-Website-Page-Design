@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+   display: grid;
+   grid-template-columns: repeat(3 ,2fr);
+   grid-template-rows: repeat(9,3.5rem);
+}
+
+
+.content1 , .content2 , .content3{
+    background-color:rgb(48, 62, 82) ;
+    border-bottom: 2px solid purple;
+    
+    
+}
+.content1__span{
+    color: purple;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.content1__parag{
+    color: white;
+    padding-left: .6rem;
+}
+.content3 ul{
+    
+   display: flex; 
+   justify-content: flex-end;
+   
+}
+.content3 ul li{
+    margin-top: .4rem;
+   padding: .7rem;
+   
+}
+.content3 ul li a{
+    color: white;
+ 
+}
+.content4{
+    grid-column: 1/4;
+    grid-row: 2/7;
+    background-image: url(img/showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.content4__h1 ,.content4__parag{
+    margin-bottom: 1rem;
+    color: white;
+}
+.content5 , .content6 , .content7{
+    background-color:rgb(48, 62, 82) ;
+    
+}
+.content5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.content5__parag{
+    color: white;
+    margin-left: 1rem;
+}
+.content7{
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+}
+.content7__button{
+    margin-right: .2rem;
+    margin-left: .1rem;
+    background-color: tomato;
+    width: 4.5rem;
+    height: 1.6rem;
+    border: none;
+    color: white;
+    padding: .3rem;
+    font-size: .7rem;
+}
+.content7__search{
+    height:1.6rem ;
+    width: 13rem;
+}
+
+.logo{
+    width: 4rem;
+    margin-top: 1rem;
+}
+.content11{
+    grid-column: 1/4;
+    grid-row: 14/17;
+    height: 4rem;
+    background-color:rgb(48, 62, 82) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.footer-logo{
+    width: 7rem;
+}
+.footer-description{
+    color: white;
+}
+.content8{
+    
+    grid-row: 3/12;
+    grid-column: 1/4;
+    
+}
+.aboutus{
+    display: flex;
+    justify-content: space-between;
+}
+.about__left{
+   
+    margin: 1.5rem;
+    width: 70%;
+}
+.about__left, .about{
+    margin-bottom: 1rem;
+    word-spacing: .2rem;
+    line-height: 1.4rem;
+}
+.about__bunted{
+    background-color: #303E52;
+    color: white;
+}
+.about__right{
+    width: 30%;
+    background-color: #303E52;
+    margin: 2rem;
+    color: white;
+}
+.about__right h4{
+    margin: 2rem 1rem;
+}
+.about__right p{
+    word-spacing: .2rem;
+    line-height: 1.2rem;
+    margin: 0 1rem 1rem 1rem;
+}
